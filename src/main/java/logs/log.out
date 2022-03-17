@@ -1,0 +1,19 @@
+2022-03-17 08:03:507 INFO  ManageDriver :37 - Launching Chrome Browser
+2022-03-17 08:03:468 INFO  LoginPage :69 - Clicking on Accept Cookie Button : [[ChromeDriver: chrome on WINDOWS (6f21c92a605078c4cc5d98b1238333cb)] -> id: agree]
+2022-03-17 08:03:477 INFO  LoginPage :63 - verifying Login URL. : 
+2022-03-17 08:03:568 INFO  LoginPage :79 - Entering Username into Username Field : [[ChromeDriver: chrome on WINDOWS (6f21c92a605078c4cc5d98b1238333cb)] -> id: username-i]
+2022-03-17 08:03:616 INFO  LoginPage :84 - Entering Password into Password Field : [[ChromeDriver: chrome on WINDOWS (6f21c92a605078c4cc5d98b1238333cb)] -> id: password-i]
+2022-03-17 08:03:660 INFO  LoginPage :89 - Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (6f21c92a605078c4cc5d98b1238333cb)] -> id: login-btn]
+2022-03-17 08:03:416 INFO  LoginPage :73 - Getting text for verification : [[ChromeDriver: chrome on WINDOWS (6f21c92a605078c4cc5d98b1238333cb)] -> xpath: //h5[normalize-space()='Share with Embark DEMO']]
+2022-03-17 08:03:44 INFO  ManageDriver :37 - Launching Chrome Browser
+2022-03-17 08:03:981 INFO  LoginPage :69 - Clicking on Accept Cookie Button : [[ChromeDriver: chrome on WINDOWS (bfb9b2ded1fe0c9a1dbac5533f52d493)] -> id: agree]
+2022-03-17 08:03:987 INFO  LoginPage :63 - verifying Login URL. : 
+2022-03-17 08:03:59 INFO  LoginPage :79 - Entering Username into Username Field : [[ChromeDriver: chrome on WINDOWS (bfb9b2ded1fe0c9a1dbac5533f52d493)] -> id: username-i]
+2022-03-17 08:03:121 INFO  LoginPage :84 - Entering Password into Password Field : [[ChromeDriver: chrome on WINDOWS (bfb9b2ded1fe0c9a1dbac5533f52d493)] -> id: password-i]
+2022-03-17 08:03:156 INFO  LoginPage :89 - Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (bfb9b2ded1fe0c9a1dbac5533f52d493)] -> id: login-btn]
+2022-03-17 08:03:784 INFO  ManageDriver :37 - Launching Chrome Browser
+2022-03-17 08:03:737 INFO  LoginPage :69 - Clicking on Accept Cookie Button : [[ChromeDriver: chrome on WINDOWS (c692fed78ddfff54a60154811421e5e8)] -> id: agree]
+2022-03-17 08:03:742 INFO  LoginPage :63 - verifying Login URL. : 
+2022-03-17 08:03:826 INFO  LoginPage :79 - Entering Username into Username Field : [[ChromeDriver: chrome on WINDOWS (c692fed78ddfff54a60154811421e5e8)] -> id: username-i]
+2022-03-17 08:03:880 INFO  LoginPage :84 - Entering Password into Password Field : [[ChromeDriver: chrome on WINDOWS (c692fed78ddfff54a60154811421e5e8)] -> id: password-i]
+2022-03-17 08:03:917 INFO  LoginPage :89 - Clicking on Login Button : [[ChromeDriver: chrome on WINDOWS (c692fed78ddfff54a60154811421e5e8)] -> id: login-btn]

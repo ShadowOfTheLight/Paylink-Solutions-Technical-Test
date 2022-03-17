@@ -1,0 +1,335 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3386863400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should able to login with valid credentials",
+        "description": "",
+        "id": "paylink-solutions-login-functionality;user-should-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 601477300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 586158900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginPageSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127852600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid USERNAME and PASSWORD",
+            "match": {
+              "location": "LoginPageSteps.user_enters_valid_USERNAME_and_PASSWORD(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "technicaltest22@protonmail.com",
+                  "Password99*"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44092900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on Login Button",
+            "match": {
+              "location": "LoginPageSteps.user_click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1764811200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify user is on account page",
+            "match": {
+              "location": "LoginPageSteps.verify_user_is_on_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1509368700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify error message is diplayed for invalid credentials",
+        "description": "",
+        "id": "paylink-solutions-login-functionality;verify-error-message-is-diplayed-for-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 568642400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 441479100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginPageSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131992700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters invalid \"abc@gmail.com\" and \"Password99*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Password99*",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginPageSteps.userEntersInvalidAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34903800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Login Button",
+            "match": {
+              "location": "LoginPageSteps.user_click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1036196200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify error message is displayed \"Incorrect username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incorrect username or password",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginPageSteps.verifyErrorMessageIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1547983800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify error message is diplayed for invalid credentials",
+        "description": "",
+        "id": "paylink-solutions-login-functionality;verify-error-message-is-diplayed-for-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 583404300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 427039500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginPageSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137176900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters invalid \"technicaltest22@protonmail.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "technicaltest22@protonmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "abc123",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginPageSteps.userEntersInvalidAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35782100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Login Button",
+            "match": {
+              "location": "LoginPageSteps.user_click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1034928300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify error message is displayed \"Incorrect username or password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incorrect username or password",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginPageSteps.verifyErrorMessageIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Paylink Solutions Login Functionality",
+    "description": "User should able to login into Paylink Solutions",
+    "id": "paylink-solutions-login-functionality",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature"
+  }
+]
